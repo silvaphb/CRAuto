@@ -37,4 +37,4 @@ class TextManager():
             p2 = PRESET.variables[params[1][1:]] if '$' in params[1] else params[1]
             return p1, p2
         else:
-            return cmd[1][:-1]
+            return PRESET.variables[cmd[1][1:][:-1]] if '$' in cmd[1] else cmd[1][:-1]
