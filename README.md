@@ -5,9 +5,13 @@ Projeto desenvolvido para facilitar a criação de automações (Realizar açõe
 O codigo consiste em ler e interpretar de uma forma considerada correta para o modulo de leitura, que é baseada em Python. Abaixo terá uma lista de todas as palavras reservadas e seus devidos parametros:
 
 `sleep(segundos)` - Tem a mesma funcionalidade do time.sleep() no Python. No lugar de "segundos" coloque o valor que desejar, lembrando que no momento so suporta valores INT.
+
 `click(x, y)` - Função responsavel por clicar em algum local com o mouse, posição baseada em Pixels da tela (x, y). No lugar do "x" coloque a largura em Pixels e no "y" altura em Pixels.
+
 `PressR(botao)` - Função responsavel por clicar e soltar (simulação de apertar) um botão do teclado. No lugar de "botao" coloque um botão do seu teclado, exemplo: PressR(A).
+
 `PressH(botao, tempo_segurando)` - Função responsavel por clicar e segurar uma tecla por determinado tempo em segundos. No lugar de "botao" coloque a tecla desejada e no lugar de "tempo_segurando" coloque o tempo de pressão dessa tecla.
+
 `Write(texto)` - Função responsavel por digitar algum conjunto de caracteres em seguida (texto, paragrafo etc...). No lugar de "texto" coloque o texto que desejar.
 
 Vale ressaltar que o modulo suporta o uso de # para comentar uma linha dentro do arquivo de texto lido.
