@@ -1,5 +1,5 @@
-# AUTOMAÇÃO PARA ABRIR APP E DIGITAR
+# AUTOMAÇÃO PARA ABRIR PESQUISA DO VSCODE E DIGITAR
+var(X, 500)
+click($X,10)
 sleep(2)
-click(500,10)
-#sleep(2)
-pressR(A)
+write(Ola, CRAuto!)

@@ -1,4 +1,5 @@
 import pyautogui, keyboard, time
+import presets as PRESET
 
 class Actions():
     def __init__(self):
@@ -31,9 +32,9 @@ class TextManager():
 
         cmd = line.split('(')
         if double: 
-            params = cmd[1][:-1].split(',')
-            p1 = params[0]
-            p2 = params[1]
+            params = cmd[1][:-1].split(',') 
+            p1 = PRESET.variables[params[0][1:]] if '$' in params[0] else params[0]
+            p2 = PRESET.variables[params[1][1:]] if '$' in params[1] else params[1]
             return p1, p2
         else:
             return cmd[1][:-1]
