@@ -14,6 +14,8 @@ O codigo consiste em ler e interpretar de uma forma considerada correta para o m
 
 `Write(texto)` - Função responsavel por digitar algum conjunto de caracteres em seguida (texto, paragrafo etc...). No lugar de "texto" coloque o texto que desejar.
 
+`Screenshot(nome_da_print)` - Função responsavel por printar a tela complete do monitor. No lugar de "nome_da_print" coloque o caminho/nome de onde deseja guardar essa print. Exemplo: Screenshot(img/PrintDoAPP.png)
+
 Vale ressaltar que o modulo suporta o uso de # para comentar uma linha dentro do arquivo de texto lido.
 
 **Exemplo de arquivo:**
