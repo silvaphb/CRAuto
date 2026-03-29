@@ -1,0 +1,5 @@
+# AUTOMAÇÃO PARA ABRIR APP E DIGITAR
+sleep(2)
+click(500,10)
+#sleep(2)
+pressR(A)
